@@ -299,9 +299,9 @@ nohup python neste_h.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > 
 nohup python neste_hd.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/DBHE/lp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
-###  DBHE relation-specifc results
+###  DBHE relation-specific results
 
-To obtain the relation-specifc results, simply use the relation-specifc test sets in ./bechmarks/DBHE/meta_i (where i is the i_th relation). 
+To obtain the relation-specific results, simply use the relation-specific test sets in ./bechmarks/DBHE/meta_i (where i is the i_th relation). 
 
 
 ## Pre-trained models

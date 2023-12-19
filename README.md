@@ -306,7 +306,7 @@ To obtain the relation-specifc results, simply use the relation-specifc test set
 
 ## Pre-trained models
 
-We provided some [pre-trained models]()  for testing the results without training (Note: in this folder, MetaE means NestE)
+We provided some [pre-trained models]() in the ./checkpoints/ folder for testing the results without training (Note: in this folder, MetaE means NestE)
 
 
 ## Some of the code was forked from the following repositories

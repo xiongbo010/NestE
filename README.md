@@ -76,7 +76,7 @@ nohup python neste_db.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > 
 
 nohup python neste_h.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/FBH/tp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/FBH/tp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/FBH/tp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 Results for conditional link prediction on FBH 
@@ -103,7 +103,7 @@ nohup python neste_db.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  >
 
 nohup python neste_h.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/FBH/clp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/FBH/clp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/FBH/clp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 Results for base link prediction  on FBH 
@@ -130,7 +130,7 @@ nohup python neste_db.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > 
 
 nohup python neste_h.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/FBH/lp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/FBH/lp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py FBH 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/FBH/lp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 Results for triple prediction on FBHE
@@ -158,7 +158,7 @@ nohup python neste_db.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  >
 
 nohup python neste_h.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/FBHE/tp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/FBHE/tp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/FBHE/tp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 Results for conditional link prediction on FBHE 
@@ -185,7 +185,7 @@ nohup python neste_db.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  
 
 nohup python neste_h.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/FBHE/clp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/FBHE/clp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/FBHE/clp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 Results for base link prediction  on FBH 
@@ -212,7 +212,7 @@ nohup python neste_db.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  >
 
 nohup python neste_h.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/FBHE/lp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/FBHE/lp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py FBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/FBHE/lp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 Results for triple prediction on DBHE
@@ -240,7 +240,7 @@ nohup python neste_db.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  >
 
 nohup python neste_h.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/DBHE/tp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/DBHE/tp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --tp  > logs/DBHE/tp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 Results for conditional link prediction on DBHE
@@ -267,7 +267,7 @@ nohup python neste_db.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  
 
 nohup python neste_h.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/DBHE/clp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/DBHE/clp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --clp  > logs/DBHE/clp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 
@@ -296,7 +296,7 @@ nohup python neste_db.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  >
 
 nohup python neste_h.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/DBHE/lp/neste_h_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 
-nohup python neste_hd.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/DBHE/lp/neste_hd_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
+nohup python neste_hb.py DBHE 0.1 0.1 500 --dim 200 --meta 0.5 --aug 0.2 --lp  > logs/DBHE/lp/neste_hb_0.1_0.1_500_200_0.5_0.2.out 2>&1 &
 ```
 
 ###  DBHE relation-specific results

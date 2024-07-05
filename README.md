@@ -1,4 +1,5 @@
 # **NestE: Modeling Nested Relational Structures for Knowledge Graph Reasoning (AAAI'24)**
+[![Identifier](https://img.shields.io/badge/doi-10.18419%2Fdarus--3978-d45815.svg)](https://doi.org/10.18419/darus-3978)
 [![Python 3.8](https://img.shields.io/badge/Python-3.8-2d618c?logo=python)](https://docs.python.org/3.8/)
 [![PyTorch](https://img.shields.io/badge/Made%20with-PyTorch-ee4c2c?logo=pytorch)](https://pytorch.org/docs/stable/index.html)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
